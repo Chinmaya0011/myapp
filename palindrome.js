@@ -64,18 +64,19 @@
 // change(x);
 // console.log(x)
 // What will be the output of this code?
-function outer() {
-    var x = 10;
+// function outer() {
+//     var x = 10;
   
-    return function() {
-      console.log(x);
-    };
-  }
+//     return function() {
+//       console.log(x);
+//     };
+//   }
   
-  var innerFunctions = [];
-  for (var i = 0; i < 3; i++) {
-    innerFunctions.push(outer());
-  }
+//   var innerFunctions = [];
+//   for (var i = 0; i < 3; i++) {
+//     innerFunctions.push(outer());
+//   }
   
+
 
   
